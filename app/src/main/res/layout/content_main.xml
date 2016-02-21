@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.policeestebi.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#ffdfeaf1"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitle"
+            android:text="@string/app_portfolio_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#506474"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_spotify_streamer_name"
+            android:id="@+id/btn_spotifyStreamer"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvTitle"
+            android:textAllCaps="true"
+            android:background="#F08C35"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:onClick="showApp"
+            />
+
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_scores_name"
+            android:id="@+id/btn_scoresApp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_spotifyStreamer"
+            android:textAllCaps="true"
+            android:background="#F08C35"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:onClick="showApp"
+            />
+
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_library_name"
+            android:id="@+id/btn_libraryApp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_scoresApp"
+            android:textAllCaps="true"
+            android:background="#F08C35"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:onClick="showApp"/>
+
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_build_it_bigger_name"
+            android:id="@+id/btn_buildItApp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_libraryApp"
+            android:textAllCaps="true"
+            android:background="#F08C35"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:onClick="showApp"/>
+
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_xyz_reader_name"
+            android:id="@+id/btn_xyzReaderApp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_buildItApp"
+            android:textAllCaps="true"
+            android:background="#F08C35"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:onClick="showApp"/>
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:text="@string/app_capstone_my_own_app_name"
+            android:id="@+id/btn_capstoneAppp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_xyzReaderApp"
+            android:textAllCaps="true"
+            android:background="#C7003D"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:onClick="showApp"/>
+
+</RelativeLayout>
